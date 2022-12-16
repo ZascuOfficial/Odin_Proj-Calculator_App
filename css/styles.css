@@ -85,6 +85,12 @@ button {
   border-radius: 5px;
 }
 
+.operator-btns {
+  background-color: var(--light-brown);
+  color: var(--warm-white);
+  border-color: var(--warm-white);
+}
+
 .btn:hover,
 .operator-btns:hover,
 #period-btn:hover {
