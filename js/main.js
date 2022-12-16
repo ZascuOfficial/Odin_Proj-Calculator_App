@@ -81,9 +81,9 @@ function operate(operator, firstOperand, secondOperand) {
     case '×': return firstOperand * secondOperand;
     case '÷':
       if (secondOperand === 0) {
-        alert('Cannot divide by 0.');
+        alert('[WARNING]: Cannot divide by 0');
 
-        return 'ERROR';
+        return;
       }
 
       return firstOperand / secondOperand;
