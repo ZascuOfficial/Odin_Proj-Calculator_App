@@ -93,7 +93,8 @@ button {
 
 .btn:hover,
 .operator-btns:hover,
-#period-btn:hover {
+#period-btn:hover,
+#equals-btn:hover {
   background-color: var(--dark-brown);
   color: var(--warm-white);
   border-color: var(--warm-white);
